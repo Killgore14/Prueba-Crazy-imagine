@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <title>Crazy Imagine</title>
+</head>
+<body>
+
+<header class="header" id="header">
+    <nav class="nav container"> 
+        <a href="#home" class="nav__logo">
+            <img src="assets/icons8-eye-50.png" alt="Logo de Crazy imagine">
+            <h1 class="nav__logo-titulo">crazy imagine</h1>
+        </a>
+
+        <button class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-3-line"></i>
+        </button>
+
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#clientes" class="nav__link">
+                        <i class="ri-info-card-fill"></i>
+                        <span>Clientes</span>
+                    </a>
+                </li>
+                
+                 <li class="nav__item">
+                    <a href="#proyectos" class="nav__link">
+                        <i class="ri-shape-2-line"></i>
+                        <span>Proyectos</span>
+                    </a>
+                </li>   
+
+                <li class="nav__item">
+                    <a href="#servicios" class="nav__link">
+                        <i class="ri-receipt-fill"></i>
+                        <span>Servicios</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Transformamos tus ideas en
+                    <span>software extraordinario</span>
+                </h1>
+                <p class="hero__description">
+                    Creamos soluciones digitales de alto impacto que transforman ideas audaces en software extraordinario. Desarrollamos aplicaciones web y móviles diseñadas para escalar tu negocio.
+                </p>
+                <a href="#services" class="hero__btn">
+                    Inicia tu proyecto
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients" id="clientes">
+        <div class="clients__container container">
+            <h2 class="clients__title">Empresas que confían en nosotros</h2>
+            
+            <div class="clients__slider">
+                <div class="clients__track">
+                    <ul class="clients__list">
+                        <li class="clients__item"><img src="assets/logoipsum-366.svg" alt="logo de ejemplo ipsum 1" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-374.svg" alt="logo de ejemplo ipsum 2" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-377.svg" alt="logo de ejemplo ipsum 3" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-387.svg" alt="logo de ejemplo ipsum 4" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-422.svg" alt="logo de ejemplo ipsum 5" class="clients__img"></li>
+                    </ul>
+                    
+                    <ul class="clients__list" aria-hidden="true">
+                        <li class="clients__item"><img src="assets/logoipsum-366.svg" alt="" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-374.svg" alt="" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-377.svg" alt="" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-387.svg" alt="" class="clients__img"></li>
+                        <li class="clients__item"><img src="assets/logoipsum-422.svg" alt="" class="clients__img"></li>
+                    </ul>
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <section class="projects section" id="proyectos">
+    <div class="projects__container container">
+        
+        <h2 class="projects__title">Nuestros Proyectos</h2>
+        
+        <div class="projects__grid" id="projects-grid">
+            </div>
+        </div>
+</section>
+
+<section class="services section" id="servicios">
+    <div class="services__container container"> <h2 class="services__title">Nuestros Servicios</h2>
+        
+        <ul class="services__grid">
+            
+            <li>
+                <article class="service-card">
+                    <span class="service-card__icon" aria-hidden="true">
+                        <i class="ri-code-s-slash-line"></i> 
+                    </span>
+                    <h3 class="service-card__title">Desarrollo Web</h3>
+                    <p class="service-card__description">Creamos plataformas web a la medida, optimizadas para escalar y diseñadas para convertir usuarios en clientes fieles.</p>
+                </article>
+            </li>
+
+            <li>
+                <article class="service-card">
+                    <span class="service-card__icon" aria-hidden="true">
+                        <i class="ri-smartphone-line"></i>
+                    </span>
+                    <h3 class="service-card__title">Apps Móviles</h3>
+                    <p class="service-card__description">Diseño y desarrollo de aplicaciones nativas y multiplataforma que ponen tu negocio directamente en el bolsillo de tu audiencia.</p>
+                </article>
+            </li>
+
+            <li>
+                <article class="service-card">
+                    <span class="service-card__icon" aria-hidden="true">
+                        <i class="ri-rocket-line"></i>
+                    </span>
+                    <h3 class="service-card__title">Consultoría Tech</h3>
+                    <p class="service-card__description">Auditamos tu arquitectura actual y te guiamos en la transformación digital con tecnologías de punta y buenas prácticas.</p>
+                </article>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="contact__container container">
+        
+        <h2 class="contact__title">Trabajemos Juntos</h2>
+        <p class="contact__description">Cuéntanos sobre tu idea y la transformaremos en software extraordinario.</p>
+
+        <form class="contact__form" id="contact-form" novalidate>
+            
+            <div class="form__group">
+                <label for="user-name" class="form__label">Nombre completo</label>
+                <input type="text" id="user-name" class="form__input" placeholder="Ej: Juan Pérez">
+                <span class="form__error" id="error-name"></span> </div>
+
+            <div class="form__group">
+                <label for="user-email" class="form__label">Correo electrónico</label>
+                <input type="email" id="user-email" class="form__input" placeholder="Ej: juan@correo.com">
+                <span class="form__error" id="error-email"></span>
+            </div>
+
+            <div class="form__group">
+                <label for="user-message" class="form__label">Tu mensaje</label>
+                <textarea id="user-message" class="form__input form__textarea" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                <span class="form__error" id="error-message"></span>
+            </div>
+
+            <button type="submit" class="button">Iniciar Proyecto</button>
+            
+            <p class="form__success" id="success-message">¡Mensaje enviado con éxito! Te contactaremos pronto.</p>
+        </form>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer__content container">
+        
+        <div class="footer__brand">
+            <a href="#home" class="footer__logo">
+                <img src="assets/icons8-eye-50.png" alt="Logo Crazy Imagine">
+                <span class="footer__logo-text">crazy cmagine</span>
+            </a>
+            <p class="footer__copyright">©2026 Crazy Imagine, Todos los derechos reservados</p>
+        </div>
+
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#clientes" class="footer__link">Clientes</a></li>
+                <li><a href="#proyectos" class="footer__link">Proyectos</a></li>
+                <li><a href="#servicios" class="footer__link">Servicios</a></li>
+                <li><a href="#about-us" class="footer__link">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
