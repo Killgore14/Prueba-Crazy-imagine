@@ -356,7 +356,6 @@ ul {
 
 .services__grid {
     display: grid;
-    /* En mobile 1 sola columna*/
     grid-template-columns: 1fr; 
     gap: 2rem;
     padding: 0 1.5rem;
@@ -371,7 +370,6 @@ ul {
     transition: transform 0.3s ease; 
 }
 
-/* Efecto Hover: Cuando pasas el mouse, la tarjeta se levanta un poquito */
 .service-card:hover {
     transform: translateY(-5px);
 }
@@ -468,7 +466,6 @@ ul {
     opacity: 0.8;
 }
 
-/* pequeño Efecto al hacer clic para escribir */
 .form__input:focus {
     outline: none;
     border-color: #00d4ff; 
@@ -700,18 +697,15 @@ ul {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     /*este es mi responsive para tablet, quedaron cosas por ajustarle y agregarle como el svg que se ve en mi hero de desktop*/
-    /* Proyectos: 2 columnas */
-   
+
     .projects__grid {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    /* Servicios: 2-3 columnas (depende de ti) */
     .services__grid {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    /* Títulos un poco más grandes */
     .projects__title {
         font-size: 2.5rem;
     }
