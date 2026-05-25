@@ -298,7 +298,7 @@ ul {
 
 .projects__title {
     font-size: 2.2rem;
-    color: var(--title-color); 
+    color: var(--color-primary-light); 
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -330,7 +330,7 @@ ul {
 }
 
 .project-card__title {
-    color: var(--title-color);
+    color: var(--color-primary-light);
     font-size: 1.3rem;
     margin-bottom: 0.3rem;
 }
@@ -349,7 +349,7 @@ ul {
 
 .services__title {
     font-size: 2.2rem;
-    color: var(--title-color);
+    color: var(--color-primary-light);
     text-align: center;
     margin-bottom: 3.5rem;
 }
@@ -383,7 +383,7 @@ ul {
 
 .service-card__title {
     font-size: 1.4rem;
-    color: var(--title-color);
+    color: var(--color-primary-light);
     margin-bottom: 1rem;
 }
 
@@ -401,7 +401,7 @@ ul {
 
 .contact__title {
     font-size: 2.2rem;
-    color: var(--title-color);
+    color: var(--color-primary-light);
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -430,7 +430,7 @@ ul {
 
 .form__label {
     font-size: 0.95rem;
-    color: var(--title-color);
+    color: var(--color-primary-light);
     font-weight: 500;
 }
 
@@ -693,7 +693,8 @@ ul {
         background-color: rgba(0, 0, 0, 0.2); /* Una caja sutil para agruparlo en PC */
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.05);
-    }
+    }    
+}    
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     /*este es mi responsive para tablet, quedaron cosas por ajustarle y agregarle como el svg que se ve en mi hero de desktop*/
@@ -709,6 +710,4 @@ ul {
     .projects__title {
         font-size: 2.5rem;
     }
-}
-
 }
